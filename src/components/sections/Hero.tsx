@@ -127,46 +127,45 @@ export const Hero = () => {
         <HeroContent>
           <div>
             <Title role="heading" aria-level={2}>
-              Hi, I'm [Your Name]
+              Hi, I'm Cameron Watts
             </Title>
             <Subtitle role="heading" aria-level={3}>
-              Full Stack Developer
+              Business Analyst & Data Enthusiast
             </Subtitle>
             <Description role="paragraph">
-              I create elegant solutions to complex problems, specializing in modern web development
-              with a focus on user experience and clean code.
+              I analyze data to extract valuable insights and help businesses make informed decisions. Passionate about learning and using data to drive growth.
             </Description>
             <SocialLinks role="list" aria-label="Social media links">
               <a 
-                href="https://github.com" 
+                href="https://github.com/cjwattttts" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Visit my GitHub profile"
                 role="listitem"
               >
-                <Suspense fallback={<div style={{ width: '1.5rem', height: '1.5rem' }} />}>
+                <Suspense fallback={<div style={{ width: '1.5rem', height: '1.5rem' }} />} >
                   <FaGithub aria-hidden="true" />
                 </Suspense>
                 <span className="sr-only">GitHub</span>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://linkedin.com/in/cameronwatts" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Visit my LinkedIn profile"
                 role="listitem"
               >
-                <Suspense fallback={<div style={{ width: '1.5rem', height: '1.5rem' }} />}>
+                <Suspense fallback={<div style={{ width: '1.5rem', height: '1.5rem' }} />} >
                   <FaLinkedin aria-hidden="true" />
                 </Suspense>
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a 
-                href="mailto:your.email@example.com"
+                href="mailto:cjwatts@example.com"
                 aria-label="Send me an email"
                 role="listitem"
               >
-                <Suspense fallback={<div style={{ width: '1.5rem', height: '1.5rem' }} />}>
+                <Suspense fallback={<div style={{ width: '1.5rem', height: '1.5rem' }} />} >
                   <FaEnvelope aria-hidden="true" />
                 </Suspense>
                 <span className="sr-only">Email</span>
